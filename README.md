@@ -5,4 +5,4 @@ You can apply hovers,change animation properties or anything to make it more att
 <h1>And Don't forget to star this Repo :)  </h1>
 
 <h3>The website looks like this :</h3>
-(https://github.com/Divijcode/divijcode.github.io/blob/master/Screenshot%20(1).png)
+https://github.com/Divijcode/divijcode.github.io/blob/master/Screenshot%20(1).png
