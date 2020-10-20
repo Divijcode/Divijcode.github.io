@@ -1,0 +1,287 @@
+*{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+header{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://thumbs.gfycat.com/SoggyOddCanine-size_restricted.gif");
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.hellocontainer{
+   background-color: antiquewhite;
+   width: auto;
+   height: auto;
+
+}
+.name{
+    color:black;
+    animation: move 3s linear infinite;
+    animation-direction: alternate;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+@keyframes move{
+    from{padding-left:30px;}
+    to{padding-right:5px;}
+
+}
+body,html{
+    background-color: aliceblue;
+    height: 100%;
+scroll-behavior: smooth;
+}
+.navbar1{
+   
+    justify-content: space-between;
+    
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    height:15vh;
+}
+.navitems1{
+    justify-content: space-around;
+    display: flex;
+    width: 40%;
+    letter-spacing: 2px;
+    
+   
+    
+}
+ .navitems1 a{
+     font-weight: bold;
+     color: white;
+    
+     
+ }
+ .navitems1 :hover{
+     
+     color: white;
+ }
+ .navbar-fixed-top.scrolled .navitems1 a{
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+    padding :10px;
+    border-radius: 30px;
+    transition: background-color 200ms linear;
+  }
+ .mineimg{
+     width:250px;
+     height:auto;
+    
+     border-radius: 51% 49% 49% 51% / 49% 49% 51% 51% ;
+     padding-top: 40px;
+     
+     border: 1px solid purple;
+ }
+ .showme{
+     color: white;
+     text-decoration: underline;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     letter-spacing: 1px;
+ }
+ .navbar1 span{
+     font-weight: bold;
+     font-style: initial;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: antiquewhite;
+     padding: 25px;
+ }
+
+
+.container{
+    
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+    height: auto;
+    
+    
+    
+}
+
+section h1{
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 5px 10px 10px black;
+    padding-top: 5px;
+   
+   
+}
+
+section h3{
+    
+    font-weight: bold;
+    text-shadow: 5px 10px 10px black;
+    text-transform: uppercase;
+    
+}
+.change_skills:after {
+    content:'';
+    text-shadow: 15px 15px 15px black;
+    animation: changetext 3s infinite linear;
+    color:purple;
+    text-transform: uppercase;
+    
+}
+@keyframes changetext{
+    0%{content:"Programmer";}
+    30%{content:"Front End Developer";}
+    100%{content:"MERN ENTHUSIASIST";}
+   
+
+}
+.btn_contact{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    
+    padding: 8px;
+   
+  font-size: 16px;
+  box-shadow: 0px 0px 40px purple; 
+  color :black;
+  font-weight: bold;
+  border-radius: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;     
+}
+.contactbtn :hover{
+background: black;
+color: purple;
+}
+
+
+
+ .second{
+     
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+     width:100%;
+     height:75vh;
+     display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .skillscon{
+    
+    
+    
+     
+    
+     
+ }
+ .skillscon h1{
+     font-size: 50px;
+     
+   padding: 20px;
+    color: purple;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-shadow: 0px 0px 3px black;
+ }
+ .skills_images img{
+     
+    -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+     height:200px;
+     padding: 40px;
+ }
+
+ 
+ .tooltip{
+     width: 100px;
+     
+ }
+ .tooltip-inner{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+ }
+
+ 
+ .certifications img{
+     width:auto;
+     height:250px;
+    
+ }
+
+ /* THIRD*/
+ .third_page{
+     
+    width:100%;
+    height:82vh;
+    background: linear-gradient(to left, #8e9eab, #eef2f3);
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+ }
+ .carousel-inner{
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+
+.carousel img{
+    margin: auto;
+     
+
+}
+
+
+.text_certi h1{
+   
+   
+ 
+    text-transform: uppercase;
+    padding: 20px;
+    float: left;
+
+    font-size: 50px;
+     
+   
+    color: purple;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-shadow: 0px 0px 3px black;
+    
+}
+ 
+ #myCarousel{
+     width:600px;
+     height: auto;
+     float: right;
+     
+    
+ }
+
+
+ /* footer */
+footer{
+    font-size: 0;
+}
+ .footer button{
+     background-color: #202020;
+    
+     width: 337px;
+     color:gainsboro;
+     padding: 30px;
+     font-size: 17px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 2px;
+     transition-duration: 0.3s;
+     
+     
+ }
+ .footer a :hover{
+     background-color: #383838;
+     color: white;
+ }

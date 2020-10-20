@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <script>
+    $(document).ready(function(){
+
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          
+          event.preventDefault();
+          var hash = this.hash;
+    
+          
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+           
+            window.location.hash = hash;
+          });
+        } 
+      });
+    });
+    </script>
+  
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>DIVIJ CHHABRA</title>  
+
+</head>
+<body >
+    
+     <header>
+       
+            <nav class="navbar1 navbar-fixed-top">            
+                <div class="hellocontainer"><h1 class="name">HELLO WORLD</h1></div>
+                <div class="navitems1">
+                    <a class="grow" href="#">About</a>
+                    <a class="grow" href="#skills" >Skills</a>
+                    <a class="grow" href=#contact>Accomplishments</a>
+                    <a class="grow" href=#contact>Contact</a>
+                </div>
+            </nav>
+        
+            
+    
+
+    <main>
+        <section>
+        <div class="container">
+            <img class="mineimg"src="https://pbs.twimg.com/profile_images/1302657767921135616/7LTFqyqu.jpg">
+            <h1> DIVIJ CHHABRA</h1>
+            
+            <h3>He is a <span class="change_skills"></span></h3>
+
+            <div class="contactbtn"><button onclick="scrollWin(0, 10000)" class="btn_contact">CONTACT ME</button><a href="https://github.com/Divijcode/Portfolio"><span>  </span><span  class="showme">( Nah,Just show me the code )</span></a></div> 
+            
+        </div>
+        </section>
+    </main>
+
+    </header>
+    <div id="skills" class="second col-md-12">
+        <div class="skillscon col-md-3 ">
+            
+        <h1 class=" border-right  border-top border-dark" >MY SKILLS</h1>
+        </div>
+        <div class="skills_images col-md-9">
+          <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="HTML" src=" https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="CSS3" src="https://i.lensdump.com/i/8LCZ32.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="C language" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png">
+           <img class="grow-large "data-toggle="tooltip" data-placement="bottom" title="C++" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Java" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Node.js" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="JavaScript" src="https://www.easyprogramming.net/logo/js.png">
+           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Bootstrap" src="https://miro.medium.com/max/1024/0*HHrmGxvASDOUhNc-.png">
+           
+        </div>
+    </div>
+
+
+    <div id="contact" class="third_page">
+        <div class="text_certi">
+            <h1 class="border-right  border-top border-dark">Certifications</h1>
+        </div>
+        
+            
+    
+
+        
+
+      
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            
+            </ol>
+            
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/UG2GP52HZZBX">
+            </div>
+            
+            <div class="item">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/6263SREKGTL8">
+            </div>
+            
+            <div class="item">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/6CTMS2RHRUQE">
+            </div>
+            
+            <div class="item">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/JUDGKFRY4577">
+            </div>
+            
+            <div class="item">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/LPHS36R738TU">
+            </div>
+            <div class="item">
+                <img  src="https://coursera-certificate-images.s3.amazonaws.com/73HCM4YX2LJG">
+            </div>
+                    <div class="item">
+                        <img  src="https://coursera-certificate-images.s3.amazonaws.com/S2F2JK4M2KFW">
+                    </div>
+            
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>   
+            
+
+    </div>
+    <footer class="footer">
+       <a href="https://github.com/Divijcode"> <button >Github<span>  </span><i class="fa fa-github"></i></button></a>
+       <a href="https://www.linkedin.com/in/divij-chhabra-9595171a0/"> <button class="footerbtn">Linked<span>  </span><i class="fa fa-linkedin"></i></button></a>
+       <a href="mailto:divij1001001@gmail.com"> <button >Email<span>  </span><i class="fa fa-envelope"></i></button></a>
+       <a href="https://www.instagram.com/divij_chhabra/"> <button >Instagram<span>  </span><i class="fa fa-instagram"></i></button></a>
+    </footer>
+    
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+            $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+            });
+    </script>
+    <script>
+        function scrollWin(x, y) {
+          window.scrollBy(x, y);
+        }
+        </script>
+    
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+            
+            
+            
+            
+            
+            
+            
