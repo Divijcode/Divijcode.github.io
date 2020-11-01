@@ -44,12 +44,15 @@
      <header>
        
             <nav class="navbar1 navbar-fixed-top">            
-                <div class="hellocontainer"><h1 class="name">HELLO WORLD</h1></div>
-                <div class="navitems1">
-                    <a class="grow" href="#">About</a>
-                    <a class="grow" href="#skills" >Skills</a>
-                    <a class="grow" href=#contact>Accomplishments</a>
-                    <a class="grow" href=#contact>Contact</a>
+                <div class="hellocontainer "><h1 class="name">HELLO WORLD</h1></div>
+                
+               
+                <div class="navitems1 ">
+
+                    <a class="grow d-lg-block d-none" href="#">About</a>
+                    <a class="grow d-lg-block d-none" href="#skills" >Skills</a>
+                    <a class="grow d-lg-block d-none" href=#contact>Accomplishments</a>
+                    <a class="grow d-lg-block d-none" href=#contact>Contact</a>
                 </div>
             </nav>
         
@@ -62,7 +65,7 @@
             <img class="mineimg"src="https://pbs.twimg.com/profile_images/1302657767921135616/7LTFqyqu.jpg">
             <h1> DIVIJ CHHABRA</h1>
             
-            <h3>He is a <span class="change_skills"></span></h3>
+            <h3>He is a <span class="change_skills "></span></h3>
 
             <div class="contactbtn"><button onclick="scrollWin(0, 10000)" class="btn_contact">CONTACT ME</button><a href="https://github.com/Divijcode/Portfolio"><span>  </span><span  class="showme">( Nah,Just show me the code )</span></a></div> 
             
@@ -71,28 +74,36 @@
     </main>
 
     </header>
-    <div id="skills" class="second col-md-12">
-        <div class="skillscon col-md-3 ">
+    
+    <div id="skills" class="second row">
+      <span class="px-5"></span>
+        <div class="skillscon col-12 col-lg-4 col-md-4">
             
-        <h1 class=" border-right  border-top border-dark" >MY SKILLS</h1>
+        <h1 class=" text-wrap text-center  border-dark border-top border-right" ><span class=" p-5 ">MY SKILLS</span></h1>
         </div>
-        <div class="skills_images col-md-9">
-          <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="HTML" src=" https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="CSS3" src="https://i.lensdump.com/i/8LCZ32.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="C language" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png">
-           <img class="grow-large "data-toggle="tooltip" data-placement="bottom" title="C++" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Java" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Node.js" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="JavaScript" src="https://www.easyprogramming.net/logo/js.png">
-           <img class="grow-large " data-toggle="tooltip" data-placement="bottom" title="Bootstrap" src="https://miro.medium.com/max/1024/0*HHrmGxvASDOUhNc-.png">
-           
+        <div class="col-lg-1"></div>
+        <div class="skills_images  p-5 col-12 col-lg-6 col-md-8">
+          <div class="row p-2">
+          <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="HTML" src=" https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="CSS3" src="https://i.lensdump.com/i/8LCZ32.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="C language" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid"data-toggle="tooltip" data-placement="bottom" title="C++" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png">
+          </div>
+          
+          <div class="row p-2">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="Java" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="Node.js" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="JavaScript" src="https://www.easyprogramming.net/logo/js.png">
+           <img class="grow-large  col-lg-3 col-3 img-fluid" data-toggle="tooltip" data-placement="bottom" title="Bootstrap" src="https://miro.medium.com/max/1024/0*HHrmGxvASDOUhNc-.png">
+           </div>
+           <div class="col-lg-1"></div>
         </div>
     </div>
 
 
-    <div id="contact" class="third_page">
-        <div class="text_certi">
-            <h1 class="border-right  border-top border-dark">Certifications</h1>
+    <div id="contact" class="third_page row">
+        <div class="text_certi col-lg-4 col-12">
+            <h1 class="border-right text-center  border-top border-dark">Certifications</h1>
         </div>
         
             
@@ -101,7 +112,7 @@
         
 
       
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide  text-center col-lg-5 col-12" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -153,15 +164,16 @@
             </a>
             </div>
         </div>   
-            
+         
 
     </div>
-    <footer class="footer">
-       <a href="https://github.com/Divijcode"> <button >Github<span>  </span><i class="fa fa-github"></i></button></a>
-       <a href="https://www.linkedin.com/in/divij-chhabra-9595171a0/"> <button class="footerbtn">Linked<span>  </span><i class="fa fa-linkedin"></i></button></a>
-       <a href="mailto:divij1001001@gmail.com"> <button >Email<span>  </span><i class="fa fa-envelope"></i></button></a>
-       <a href="https://www.instagram.com/divij_chhabra/"> <button >Instagram<span>  </span><i class="fa fa-instagram"></i></button></a>
-    </footer>
+    <footer class="footer ">
+       <div class="footerclass"><a href="https://github.com/Divijcode"> <button class="col-lg-6 col-12">Github<span>  </span><i class="fa fa-github"></i></button></a>
+       <a href="https://www.linkedin.com/in/divij-chhabra-9595171a0/"> <button class=" col-lg-6 footerbtn col-12">Linked<span>  </span><i class="fa fa-linkedin"></i></button></a>
+       <a href="mailto:divij1001001@gmail.com"> <button class="col-12 col-lg-6" >Email<span>  </span><i class="fa fa-envelope"></i></button></a>
+       <a href="https://www.instagram.com/divij_chhabra/"> <button class="col-lg-6 col-12">Instagram<span>  </span><i class="fa fa-instagram"></i></button></a>
+        </div>
+      </footer>
     
 <script>
     $(document).ready(function(){

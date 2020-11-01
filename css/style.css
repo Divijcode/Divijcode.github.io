@@ -1,11 +1,13 @@
 *{
     margin:0; padding: 0; box-sizing: border-box;
+    overflow-x: initial;
+  
 }
 header{
    
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://thumbs.gfycat.com/SoggyOddCanine-size_restricted.gif");
     width: 100%;
-    height:100vh;
+    height:100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +18,7 @@ header{
    background-color: antiquewhite;
    width: auto;
    height: auto;
-
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .name{
     color:black;
@@ -24,7 +26,8 @@ header{
     animation-direction: alternate;
     font-size: 20px;
     padding: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: cursive;
+   font-weight: bold;
     
 }
 @keyframes move{
@@ -75,7 +78,7 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     transition: background-color 200ms linear;
   }
  .mineimg{
-     width:250px;
+     width:25%;
      height:auto;
     
      border-radius: 51% 49% 49% 51% / 49% 49% 51% 51% ;
@@ -110,7 +113,7 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 }
 
 section h1{
-    font-size: 55px;
+    font-size: 300%;
     font-weight: bold;
     text-shadow: 5px 10px 10px black;
     padding-top: 5px;
@@ -118,8 +121,9 @@ section h1{
    
 }
 
+
 section h3{
-    
+    font-size: 300%;
     font-weight: bold;
     text-shadow: 5px 10px 10px black;
     text-transform: uppercase;
@@ -136,7 +140,7 @@ section h3{
 @keyframes changetext{
     0%{content:"Programmer";}
     30%{content:"Front End Developer";}
-    100%{content:"MERN ENTHUSIASIST";}
+    100%{content:"MERN ENTHUSIAST";}
    
 
 }
@@ -165,9 +169,8 @@ color: purple;
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
      
      width:100%;
-     height:75vh;
-     display: flex;
-   justify-content: space-around;
+     height:75%;
+   
    align-items: center;
  }
  .skillscon{
@@ -179,8 +182,8 @@ color: purple;
      
  }
  .skillscon h1{
-     font-size: 50px;
-     
+    font-size: 4rem;
+    
    padding: 20px;
     color: purple;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -188,17 +191,21 @@ color: purple;
  }
  .skills_images img{
      
+     padding: 4%;
     -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   box-shadow: 10px 10px 5px #ccc;
   -moz-border-radius:25px;
   -webkit-border-radius:25px;
   border-radius:25px;
-     height:200px;
-     padding: 40px;
+   
+
  }
 
- 
+ .skills_images{
+    
+  
+ }
  .tooltip{
      width: 100px;
      
@@ -218,8 +225,8 @@ color: purple;
  /* THIRD*/
  .third_page{
      
-    width:100%;
-    height:82vh;
+    width:101%;
+    height:82%;
     background: linear-gradient(to left, #8e9eab, #eef2f3);
     display: flex;
    justify-content: space-around;
@@ -245,8 +252,8 @@ color: purple;
     text-transform: uppercase;
     padding: 20px;
     float: left;
-
-    font-size: 50px;
+    justify-content: center;
+    font-size: 4rem;
      
    
     color: purple;
@@ -256,27 +263,37 @@ color: purple;
 }
  
  #myCarousel{
-     width:600px;
+     width:700px;
      height: auto;
-     float: right;
+   margin: 0;
+   padding: 45px 45px 45px 70px;
+
      
     
  }
 
 
  /* footer */
+ .footerclass {
+   
+ }
 footer{
+    padding: 0;
     font-size: 0;
+ 
+    height: auto;
 }
+
  .footer button{
+   
      background-color: #202020;
-    
-     width: 337px;
+     
+    width: 100%;
      color:gainsboro;
-     padding: 30px;
+     padding: 25px;
      font-size: 17px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     letter-spacing: 2px;
+     letter-spacing: 3px;
      transition-duration: 0.3s;
      
      
@@ -285,3 +302,52 @@ footer{
      background-color: #383838;
      color: white;
  }
+
+
+
+
+ @media only screen and (max-width: 600px) {
+     .third_page{
+         width: 105%;
+     }
+    .mineimg{
+        width:50%;
+        height:auto;
+       
+        
+        padding-top: 20px;
+        
+        border: 1px solid purple;
+    }
+    section h1,h3{
+        font-size: 200%;
+        font-weight: bold;
+        text-shadow: 5px 10px 10px black;
+        padding-top: 5px;
+       
+       
+    }
+   .container h3{
+        font-size: 150%;
+        font-weight: bold;
+        text-shadow: 5px 10px 10px black;
+        text-transform: uppercase;
+        
+    }
+    .contactbtn button{
+        background-color: #a4508b;
+        background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+        
+        padding: 8px;
+       
+      font-size: 13px;
+      box-shadow: 0px 0px 40px purple; 
+      color :black;
+      font-weight: bold;
+      border-radius: 8px;
+      font-family: Georgia, 'Times New Roman', Times, serif;     
+    }
+    .text_certi h1{
+        font-size: 280%;
+    }
+  }
